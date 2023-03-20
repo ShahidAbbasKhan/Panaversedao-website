@@ -3,7 +3,6 @@ import HeroImage from "@/assests/images/hero-image.png";
 //Components
 import Wrapper from "@/componets/shared/Wrapper";
 import Button from "@/componets/shared/Button";
-import { useRouter } from "next/router";
 
 const Hero = () => {
   return (
@@ -12,7 +11,7 @@ const Hero = () => {
         <div className="flex  flex-col md:flex-row items-center">
           {/* Left */}
           <div className="flex-1 ml-1 ">
-            <h4 className="text-[#00616C] font-bold text-lg mt-4 mb-2">
+            <h4 className="text-teal-700 font-bold text-lg mt-4 mb-2">
               Presidential Initiative for Artificial Intelligence and Computing
               (PIAIC)
             </h4>
