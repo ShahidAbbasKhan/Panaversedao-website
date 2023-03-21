@@ -6,7 +6,7 @@ import QuarterBox from "@/componets/shared/QuarterBox";
 const CoreTracks = () => {
   const heading = "Core Courses \n (Common in All Specializations):";
   return (
-    <section className="mt-14 lg:mt-28">
+    <section className="mt-10 lg:mt-26">
       <Wrapper>
         {/* Content */}
         <div className="flex  ml-1 max-w-xl">
