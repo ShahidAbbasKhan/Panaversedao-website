@@ -18,16 +18,16 @@ const Hero = () => {
             <h1 className="text-4xl md:text-5xl font-bold text-black leading-14">
               Certified Web 3.0 and Metaverse Developer
             </h1>
-            <p className="mt-5 text-lg text-slate-500 max-w-xl">
+            <p className="mt-5 text-xl text-slate-500 max-w-xl">
               A One and Quarter Years Panaverse DAO Earn as you Learn Program
               Getting Ready for the Next Generation of the Internet
             </p>
-            <p className="mt-5 text-lg text-slate-500 max-w-xl">
+            <p className="mt-5 text-xl text-slate-500 max-w-xl">
               Consolidating Web 3.0, Metaverse, Artificial Intelligence (AI),
               Cloud, Edge, Ambient Computing/IoT, Network Automation, and
               Bioinformatics Technologies
             </p>
-            <div className="mt-5">
+            <div className="mt-6">
               <Button text={"Enroll Now"} />
             </div>
           </div>

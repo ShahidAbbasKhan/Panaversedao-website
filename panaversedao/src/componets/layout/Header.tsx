@@ -5,7 +5,7 @@ import Wrapper from "@/componets/shared/Wrapper";
 const Header = () => {
   return (
     <Wrapper>
-      <header className="flex justify-between  bg-white sticky top-0 py-2 items-center">
+      <header className=" sticky top-0 flex justify-between  bg-white  py-2 items-center">
         {/* Panaverse Logo  */}
         <Link href="/">
           <Image src={Logo} alt="Panaverse Logo" />
