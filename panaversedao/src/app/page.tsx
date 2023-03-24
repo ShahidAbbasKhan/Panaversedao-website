@@ -1,7 +1,7 @@
 import CoreTracks from "@/componets/sections/CoreTracks";
 import Hero from "@/componets/sections/Hero";
 import SpecializedTracks from "@/componets/sections/SpecializedTracks";
-import React from "react";
+import ProgramOutcome from "@/componets/sections/ProgramOutcome";
 
 export default function Home() {
   return (
@@ -13,6 +13,8 @@ export default function Home() {
         <CoreTracks />
         {/* Specialized Tracks */}
         <SpecializedTracks />
+        {/* Outcome Track */}
+        <ProgramOutcome />
       </main>
     </>
   );
