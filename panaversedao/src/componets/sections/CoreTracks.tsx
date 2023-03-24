@@ -1,6 +1,7 @@
 import React from "react";
 import Wrapper from "@/componets/shared/Wrapper";
 import Button from "@/componets/shared/Button";
+import QuarterBox from "@/componets/shared/QuarterBox";
 {
   /*import QuarterBox from "@/componets/shared/QuarterBox";*/
 }
@@ -51,33 +52,14 @@ const CoreTracks = () => {
         </div>
 
         {/* Boxes */}
-        <div className="flex gap-10 my-8">
+        <div className="flex flex-col md:flex-row gap-x-8 gap-y-6 my-6">
           {QuartersData.map((item, i) => (
-            <div className="border rounded-md border-teal-700  shadow-lg shadow-teal-800 w-4/12 px-8 py-8 relative">
-              <h4 className="text-lg font-bold">{item.header}</h4>
-              <p className="mt-2 text-slate-800">{item.descrp}</p>
-              <div className="absolute top-0 right-12 text-9xl font-bold text-gray-300 -z-20 ">
-                {item.numb}
-              </div>
-            </div>
+            <QuarterBox
+              descrp={item.descrp}
+              numb={i + 1}
+              header={item.header}
+            />
           ))}
-          {/* <QuarterBox
-            header="Quarter I"
-            descrp="CS-101: Object-Oriented Programming using TypeScript"
-            numb={1}
-          />
-          <QuarterBox
-            header="Quarter II"
-            descrp="W2-201: Developing Planet-Scale Web 2.0 Serverless Cloud Cloud Apps and
-             APIs using Next.js 13
-             and Cloud Development Kit (CDK) for Terraform"
-            numb={2}
-          />
-          <QuarterBox
-            header="Quarter III"
-            descrp="$-101: Dollar Making Bootcamp - Full-Stack Template and API Product Development"
-            numb={3}
-          /> */}
         </div>
       </Wrapper>
     </section>
