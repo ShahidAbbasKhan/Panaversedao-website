@@ -1,5 +1,5 @@
 import Image from "next/image";
-import HeroImage from "@/assests/images/hero-image.png";
+import HeroImage from "@/assests/images/Hero-Image.png";
 //Components
 import Wrapper from "@/componets/shared/Wrapper";
 import Button from "@/componets/shared/Button";
